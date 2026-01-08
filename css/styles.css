@@ -484,13 +484,15 @@ li {
 	bottom: -50px;
 	background: transparent;
 	border: 10px solid #ffca42;
-	z-index: -1;
+	z-index: 1;
 }
 
 .about__images img {
 	width: 525px;
 	height: 620px;
 	box-shadow: 0 0 20px 0 rgba(27, 55, 100, 0.3);
+	z-index: 2;
+	position: relative;
 
 }
 
