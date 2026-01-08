@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<script src="js/main.js" defer></script>
+		<!-- defer атрибут что будет загружаться в конце -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="layout mb-110">
+			<div class="container">
+				<div class="header">
+					<div class="heder__logo logo">
+						<a href="#" class="logo-link">
+							<img src="images/img/logo.svg" alt="logo" />
+						</a>
+					</div>
+					<div class="header__social">
+						<a href="#" class="social__link" title="Facebook">
+							<svg
+								width="8"
+								height="14"
+								viewBox="0 0 8 14"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M7.02735 7.875L7.41016 5.35938H4.97656V3.71875C4.97656 3.00781 5.30469 2.35156 6.39844 2.35156H7.51953V0.191406C7.51953 0.191406 6.50782 0 5.55078 0C3.55469 0 2.24219 1.23047 2.24219 3.41797V5.35938H0V7.875H2.24219V14H4.97656V7.875H7.02735Z"
+									fill="#141414"
+								/>
+							</svg>
+						</a>
+						<a href="#" class="social__link" title="Twitter">
+							<svg
+								width="14"
+								height="12"
+								viewBox="0 0 14 12"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M12.5508 2.81641C13.0977 2.40625 13.5898 1.91407 13.9727 1.33985C13.4805 1.5586 12.9062 1.72266 12.332 1.77735C12.9336 1.42188 13.3711 0.875 13.5898 0.191406C13.043 0.519531 12.4141 0.765625 11.7852 0.902344C11.2383 0.328125 10.5 0 9.67969 0C8.09375 0 6.80859 1.28516 6.80859 2.8711C6.80859 3.08985 6.83594 3.3086 6.89062 3.52735C4.51172 3.39063 2.37891 2.24219 0.957031 0.519531C0.710938 0.929686 0.574219 1.42188 0.574219 1.96875C0.574219 2.95313 1.06641 3.82813 1.85938 4.34766C1.39453 4.32032 0.929688 4.21094 0.546875 3.99219V4.01954C0.546875 5.41407 1.53125 6.5625 2.84375 6.83594C2.625 6.89063 2.35156 6.94532 2.10547 6.94532C1.91406 6.94532 1.75 6.91797 1.55859 6.89063C1.91406 8.03907 2.98047 8.85938 4.23828 8.88672C3.25391 9.65235 2.02344 10.1172 0.683594 10.1172C0.4375 10.1172 0.21875 10.0899 0 10.0625C1.25781 10.8829 2.76172 11.3477 4.40234 11.3477C9.67969 11.3477 12.5508 7 12.5508 3.19922C12.5508 3.0625 12.5508 2.95313 12.5508 2.81641Z"
+									fill="#141414"
+								/>
+							</svg>
+						</a>
+						<a href="#" class="social__link" title="LinkedIn">
+							<svg
+								width="13"
+								height="13"
+								viewBox="0 0 13 13"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2.73438 12.2227V4.04688H0.191406V12.2227H2.73438ZM1.44922 2.95313C2.26953 2.95313 2.92578 2.26954 2.92578 1.44922C2.92578 0.656246 2.26953 0 1.44922 0C0.65625 0 0 0.656246 0 1.44922C0 2.26954 0.65625 2.95313 1.44922 2.95313ZM12.2227 12.2227H12.25V7.73828C12.25 5.55078 11.7578 3.85547 9.1875 3.85547C7.95703 3.85547 7.13672 4.53907 6.78125 5.16797H6.75391V4.04688H4.32031V12.2227H6.86328V8.17578C6.86328 7.10938 7.05469 6.09766 8.36719 6.09766C9.6797 6.09766 9.707 7.30078 9.707 8.25782V12.2227H12.2227Z"
+									fill="#141414"
+								/>
+							</svg>
+						</a>
+					</div>
+					<naw class="header__menu">
+						<ul class="menu__items">
+							<li class="menu__item">
+								<a href="#" class="menu__link menu-active">Home</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">About</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Pages</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Contact Us</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link cart">
+									<svg
+										width="17"
+										height="17"
+										viewBox="0 0 17 17"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_1_27)">
+											<path
+												d="M2.60593 2H0V0H4.39407L4.84288 4H16V9.93845L3.76941 12.3694L2.60593 2ZM15.5 17C14.6716 17 14 16.3284 14 15.5C14 14.6716 14.6716 14 15.5 14C16.3284 14 17 14.6716 17 15.5C17 16.3284 16.3284 17 15.5 17ZM5.5 17C4.67157 17 4 16.3284 4 15.5C4 14.6716 4.67157 14 5.5 14C6.32843 14 7 14.6716 7 15.5C7 16.3284 6.32843 17 5.5 17Z"
+												fill="black"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_1_27">
+												<rect width="17" height="17" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</naw>
+					<div class="btn__box">
+						<button class="header__button button__default">Order Today</button>
+					</div>
+				</div>
+				<div class="group">
+					<div class="group__content">
+						<div class="group__subtitle group__subtitle--lined">Welcome to Pages!!!</div>
+
+						<div class="group__title">
+							Your Books From
+							<br />
+							The Best Writer.
+						</div>
+
+						<div class="group__text">
+							<p>
+								We believe that reading books are essential to a healthy culture. They’re where
+								authors can connect with readers.
+							</p>
+						</div>
+
+						<div class="group__buttons">
+							<button class="button button__default group__button">Order today</button>
+							<button class="button button__link group__button">Read Free Demo</button>
+						</div>
+
+						<div class="group__list">
+							<div class="group__item">
+								<div class="group__item-subtitle group__item-subtitle--sphere">Pages:</div>
+								<div class="group__item-text">250 pages</div>
+							</div>
+							<div class="group__item">
+								<div class="group__item-subtitle group__item-subtitle--sphere">Length:</div>
+								<div class="group__item-text">10 Hours</div>
+							</div>
+							<div class="group__item">
+								<div class="group__item-subtitle group__item-subtitle--sphere">Rating:</div>
+								<div class="group__item-text">4.5/5 (305 ratings)</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="group__image">
+						<img src="images/img/content.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="book mb-90">
+			<div class="container">
+				<div class="book__title title--line mb-60">The Author’s Book</div>
+				<div class="book__columns">
+					<div class="book__items">
+						<div class="book__item">
+							<div class="book__img-box">
+								<img src="images/img/book-1.png" alt="" />
+							</div>
+							<div class="book__content">
+								<div class="book__name">Atomic One’s</div>
+								<div class="book__price">$ 13.84 USD</div>
+								<div class="book__text">
+									As the book contains theoretical content as well as solved questions.
+								</div>
+								<div class="book__printes">Printed Book</div>
+								<button class="book__button button--transparent">Order Now</button>
+							</div>
+						</div>
+						<div class="book__item">
+							<div class="book__img-box">
+								<img src="images/img/book-2.png" alt="" />
+							</div>
+							<div class="book__content">
+								<div class="book__name">The Dark Light</div>
+								<div class="book__price">$ 86.11 USD</div>
+								<div class="book__text">
+									As the book contains theoretical content as well as solved questions.
+								</div>
+								<div class="book__printes">Printed Book</div>
+								<button class="book__button button--transparent">Order Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about mb-110">
+			<div class="container">
+				<div class="about__inner">
+					<div class="about__images">
+						<img src="images/img/about-img.webp" alt="" />
+					</div>
+					<div class="about__content">
+						<div class="about__title title--line-start">About the Author</div>
+						<div class="about__text">
+							<p>
+								We believe that bookstores are essential to a healthy culture. They’re where authors
+								can connect with readers, where we discover new writers, where children get hooked
+								on the thrill of reading that can last a lifetime.
+							</p>
+						</div>
+						<div class="about__items">
+							<div class="about__item">
+								<div class="about__item-subtitle">02</div>
+								<div class="about__item-text">Books Published</div>
+							</div>
+							<div class="about__item">
+								<div class="about__item-subtitle">4.5</div>
+								<div class="about__item-text">User Reviews</div>
+							</div>
+							<div class="about__item">
+								<div class="about__item-subtitle">04</div>
+								<div class="about__item-text">Best Seller Awards</div>
+							</div>
+						</div>
+						<div class="shortcode__box">
+							<div class="shortcode--info">
+								<img src="images/img/shortcode.webp" alt="" />
+							</div>
+							<div class="shortcode__inner">
+								<div class="shortcode__title">John Abraham , Ph.d</div>
+								<div class="shortcode__wrap">
+									<label class="shortcode__subtitle">Mail:</label>
+									<a href="mailto:johnabraham@gmail.com" class="shortcode__link">
+										johnabraham@gmail.com
+									</a>
+								</div>
+								<div class="shortcode__wrap">
+									<label class="shortcode__subtitle">Phone:</label>
+									<a href="tel:+21235459000" class="shortcode__link">(+2) 123 545 9000</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="trusted mb-130">
+			<div class="container">
+				<div class="trusted__title title--line">Trusted By The Best</div>
+				<div class="trusted__group">
+					<ul class="trusted__items">
+						<li class="trusted__item">
+							<div class="trusted__img">
+								<img src="images/img/trusted-1.webp" alt="" />
+							</div>
+							<div class="trusted__content">
+								<div class="trusted__name">Amazen Corp.</div>
+								<div class="trusted__text">
+									They has been helping readers, music lovers, and videophiles find quality
+									material.
+								</div>
+							</div>
+						</li>
+						<li class="trusted__item">
+							<div class="trusted__img">
+								<img src="images/img/trusted-2.webp" alt="" />
+							</div>
+							<div class="trusted__content">
+								<div class="trusted__name">Megan Books</div>
+								<div class="trusted__text">
+									We help physical bookstores manage their overstock to the book inventory.
+								</div>
+							</div>
+						</li>
+						<li class="trusted__item">
+							<div class="trusted__img">
+								<img src="images/img/trusted-3.webp" alt="" />
+							</div>
+							<div class="trusted__content">
+								<div class="trusted__name">Megank</div>
+								<div class="trusted__text">
+									Bookstore serving up the full spectrum of Black literature and wine black books.
+								</div>
+							</div>
+						</li>
+						<li class="trusted__item">
+							<div class="trusted__img">
+								<img src="images/img/trusted-4.webp" alt="" />
+							</div>
+							<div class="trusted__content">
+								<div class="trusted__name">Urban Store</div>
+								<div class="trusted__text">
+									We also carry the latest records, issues of all of your favorite comic books.
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="today mb-120">
+			<div class="container">
+				<div class="today__wrapper">
+					<div class="today__content">
+						<div class="today__title title--line-start">Get Book Copy Today!</div>
+						<div class="today__text">
+							We believe that bookstores are essential to a healthy culture. They’re where authors
+							can connect with readers.
+						</div>
+						<button class="today__button button--transparent">Order Today</button>
+					</div>
+					<div class="today__img">
+						<img src="images/img/today.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="will mb-180">
+			<div class="container">
+				<div class="will__title title--default title--line mb-116">What Will You Learn?</div>
+				<div class="will__inner">
+					<div class="will__items">
+						<div class="will__item">
+							<div class="will__icon">
+								<span>01</span>
+							</div>
+							<!-- <div class="will__subtitle">Improve Your Skills</div> -->
+							<div class="will__text">
+								<p>Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+							</div>
+						</div>
+						<div class="will__item">
+							<div class="will__icon">
+								<span>02</span>
+							</div>
+							<!-- <div class="will__subtitle">Improve Your Skills</div> -->
+							<div class="will__text">
+								<p>Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+							</div>
+						</div>
+
+						<div class="will__item">
+							<div class="will__icon">
+								<span>03</span>
+							</div>
+							<!-- <div class="will__subtitle">Improve Your Skills</div> -->
+							<div class="will__text">
+								<p>Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+							</div>
+						</div>
+
+						<div class="will__item">
+							<div class="will__icon">
+								<span>04</span>
+							</div>
+							<!-- <div class="will__subtitle">Improve Your Skills</div> -->
+							<div class="will__text">
+								<p>Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="will__img">
+						<img src="images/img/will.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="knowledge mb-120">
+			<div class="container">
+				<div class="knowledge__title title--default title--line">Enhance knowledge & Vision</div>
+				<div class="knowledge__group">
+					<div class="knowledge__items">
+						<div class="knowledge__item">
+							<div class="knowledge__wrap">
+								<div class="knowledge__subtitle">Chapter-1 Get Started Intro</div>
+								<div class="knowledge__text">
+									You can double your knowledge by reading this ever needed book that can last a
+									lifetime.
+								</div>
+							</div>
+							<div class="knowledge__row">
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Pages :</div>
+									<div class="knowledge__row-text">106pages</div>
+								</div>
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Length :</div>
+									<div class="knowledge__row-text">2 Hours</div>
+								</div>
+							</div>
+						</div>
+						<div class="knowledge__item">
+							<div class="knowledge__wrap">
+								<div class="knowledge__subtitle">Chapter-2 The Roman Culture</div>
+								<div class="knowledge__text">
+									It will help to improve your life career with the perfect and needed knowledge
+									about your life.
+								</div>
+							</div>
+							<div class="knowledge__row">
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Pages :</div>
+									<div class="knowledge__row-text">180pages</div>
+								</div>
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Length :</div>
+									<div class="knowledge__row-text">3 Hours</div>
+								</div>
+							</div>
+						</div>
+						<div class="knowledge__item">
+							<div class="knowledge__wrap">
+								<div class="knowledge__subtitle">Chapter-3 How They Servived</div>
+								<div class="knowledge__text">
+									We wanted to create an easy, convenient way for you to get your books & support.
+								</div>
+							</div>
+							<div class="knowledge__row">
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Pages :</div>
+									<div class="knowledge__row-text">250pages</div>
+								</div>
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Length :</div>
+									<div class="knowledge__row-text">4 Hours</div>
+								</div>
+							</div>
+						</div>
+						<div class="knowledge__item">
+							<div class="knowledge__wrap">
+								<div class="knowledge__subtitle">Chapter-4 The End Of Romans</div>
+								<div class="knowledge__text">
+									Promote your book via Pages shop to support your writing & reading career.
+								</div>
+							</div>
+							<div class="knowledge__row">
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Pages :</div>
+									<div class="knowledge__row-text">175pages</div>
+								</div>
+								<div class="knowledge__row-item">
+									<div class="knowledge__row-subtitle">Length :</div>
+									<div class="knowledge__row-text">3 Hours</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="knowledge__box">
+						<button class="knowledge__button button__default">Start a 15-Days Free Trail</button>
+						<div class="knowledge__description">
+							<div class="knowledge__description-text">Short description about each chapter</div>
+							<div class="knowledge__description-link">
+								<span>Have any questions?</span>
+								<a href="" class="knowledge__description-link">Contact us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="readers mb-130">
+			<div class="container">
+				<div class="readers__inner">
+					<div class="readers__content">
+						<div class="readers__title title--line-start">
+							Words From Our
+							<br />
+							Readers
+						</div>
+						<div class="readers__text">
+							<p>
+								We believe that bookstores are essential to a healthy culture. They’re where authors
+								can connect with readers, where we discover new writers, where children get hooked
+								on the thrill of reading that can last a lifetime.
+							</p>
+						</div>
+						<div class="readers__rating">
+							<div class="readers__box">
+								<span class="readers__star readers__star--full">
+									<svg
+										width="13"
+										height="13"
+										viewBox="0 0 13 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+											stroke="#FFCA42"
+										/>
+									</svg>
+								</span>
+								<span class="readers__star readers__star--full">
+									<svg
+										width="13"
+										height="13"
+										viewBox="0 0 13 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+											stroke="#FFCA42"
+										/>
+									</svg>
+								</span>
+								<span class="readers__star readers__star--full">
+									<svg
+										width="13"
+										height="13"
+										viewBox="0 0 13 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+											stroke="#FFCA42"
+										/>
+									</svg>
+								</span>
+								<span class="readers__star readers__star--full">
+									<svg
+										width="13"
+										height="13"
+										viewBox="0 0 13 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+											stroke="#FFCA42"
+										/>
+									</svg>
+								</span>
+								<span class="readers__star readers__star--r">
+									<svg
+										width="13"
+										height="13"
+										viewBox="0 0 13 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+											stroke="#FFCA42"
+										/>
+									</svg>
+								</span>
+							</div>
+							<div class="readers__rating-number">(4.8/5)</div>
+						</div>
+						<div class="readers__subtitle-star">Overall Customer Ratings</div>
+					</div>
+					<div class="readers__card">
+						<ul class="readers__card-items">
+							<li class="readers__card-item">
+								<div class="readers__card-box">
+									<div class="readers__card-info">
+										<div class="readers__card-image">
+											<img src="images/img/card-1.webp" alt="" />
+										</div>
+										<div class="readers__card-wrap">
+											<div class="readers__card-name">James Williams</div>
+											<div class="readers__box">
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--r">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="readers__card-subtitle">“ Great Books Collections ”</div>
+									<div class="readers__card-text">
+										<p>
+											I was searching this book for many years and I was happy that I could find it
+											here.
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="readers__card-item">
+								<div class="readers__card-box">
+									<div class="readers__card-info">
+										<div class="readers__card-image">
+											<img src="images/img/card-3.webp" alt="" />
+										</div>
+										<div class="readers__card-wrap">
+											<div class="readers__card-name">Chris Adams</div>
+											<div class="readers__box">
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="readers__card-subtitle">“ Perfect Response Author”</div>
+									<div class="readers__card-text">
+										<p>
+											I had a question about the book and the author response was great & comfort.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="readers__card-item">
+								<div class="readers__card-box">
+									<div class="readers__card-info">
+										<div class="readers__card-image">
+											<img src="images/img/card-2.webp" alt="" />
+										</div>
+										<div class="readers__card-wrap">
+											<div class="readers__card-name">Angeline Flora</div>
+											<div class="readers__box">
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star readers__star--full">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+												<span class="readers__star">
+													<svg
+														width="13"
+														height="13"
+														viewBox="0 0 13 13"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M6.33333 12.1667C9.55499 12.1667 12.1667 9.55499 12.1667 6.33333C12.1667 3.11167 9.55499 0.5 6.33333 0.5C3.11167 0.5 0.5 3.11167 0.5 6.33333C0.5 9.55499 3.11167 12.1667 6.33333 12.1667Z"
+															stroke="#FFCA42"
+														/>
+													</svg>
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="readers__card-subtitle">“ Creative Writing Skill”</div>
+									<div class="readers__card-text">
+										<p>
+											Sent an email after to books arrived to ask about the author & I received a
+											reply.
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="articles mb-120">
+			<div class="container">
+				<div class="articles__title title--default title--line">Articles & Resources</div>
+				<div class="articles__inner">
+					<div class="articles__item">
+						<div class="articles__img">
+							<img src="images/img/articles-1.webp" alt="" />
+						</div>
+						<div class="articles__content">
+							<div class="articles__subtitle">Significant reading has more info number</div>
+							<div class="articles__text">
+								Override the digital divide with additional clickthroughs from DevOps for real-time
+								schemas.
+							</div>
+							<div class="articles__link__wrap">
+								<a href="#" class="articles__link">Readmore</a>
+								<div class="articles__data" datetime="2021-10-06">October 6, 2021</div>
+							</div>
+						</div>
+					</div>
+					<div class="articles__item">
+						<div class="articles__img">
+							<img src="images/img/articles-2.webp" alt="" />
+						</div>
+						<div class="articles__content">
+							<div class="articles__subtitle">Many variations of pass majority have suffered</div>
+							<div class="articles__text">
+								Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta
+								test.
+							</div>
+							<div class="articles__link__wrap">
+								<a href="#" class="articles__link">Readmore</a>
+								<div class="articles__data" datetime="2021-10-06">October 6, 2021</div>
+							</div>
+						</div>
+					</div>
+					<div class="articles__item">
+						<div class="articles__img">
+							<img src="images/img/articles-3.webp" alt="" />
+						</div>
+						<div class="articles__content">
+							<div class="articles__subtitle">Words which don’t look even slightly believable</div>
+							<div class="articles__text">
+								Podcasting operational change management inside of workflows to establish a
+								framework.
+							</div>
+							<div class="articles__link__wrap">
+								<a href="#" class="articles__link">Readmore</a>
+								<div class="articles__data" datetime="2021-10-06">October 6, 2021</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="updates mb-120">
+			<div class="container">
+				<div class="updates__inner">
+					<div class="updates__title title--default title--line">Get The Best Updates</div>
+					<div class="updates__text">
+						<p>
+							Subscribe with your mail id to know the current update in book edition at your
+							fingertip with in a minute.
+						</p>
+					</div>
+					<form action="" class="updates__form">
+						<input
+							type="text"
+							class="updates__input"
+							type="email"
+							placeholder="Your Email ID..."
+							required
+						/>
+						<button class="updates__form-button" type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__top-items">
+						<div class="footer__top-item">
+							<div class="footer__logo">
+								<img src="images/img/logo.svg" alt="" />
+							</div>
+							<div class="footer__top-social">
+								<a href="#" class="footer__top-link" title="Facebook">
+									<svg
+										width="9"
+										height="16"
+										viewBox="0 0 9 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.03125 9L8.46875 6.125H5.6875V4.25C5.6875 3.4375 6.0625 2.6875 7.3125 2.6875H8.59375V0.21875C8.59375 0.21875 7.4375 0 6.34375 0C4.0625 0 2.5625 1.40625 2.5625 3.90625V6.125H0V9H2.5625V16H5.6875V9H8.03125Z"
+											fill="white"
+										/>
+									</svg>
+								</a>
+								<a href="#" class="footer__top-link" title="Twitter">
+									<svg
+										width="16"
+										height="13"
+										viewBox="0 0 16 13"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M14.3438 3.21875C14.9688 2.75 15.5312 2.1875 15.9688 1.53125C15.4062 1.78125 14.75 1.96875 14.0938 2.03125C14.7812 1.625 15.2812 1 15.5312 0.21875C14.9062 0.59375 14.1875 0.875 13.4688 1.03125C12.8438 0.375 12 0 11.0625 0C9.25 0 7.78125 1.46875 7.78125 3.28125C7.78125 3.53125 7.8125 3.78125 7.875 4.03125C5.15625 3.875 2.71875 2.5625 1.09375 0.59375C0.8125 1.0625 0.65625 1.625 0.65625 2.25C0.65625 3.375 1.21875 4.375 2.125 4.96875C1.59375 4.9375 1.0625 4.8125 0.625 4.5625V4.59375C0.625 6.1875 1.75 7.5 3.25 7.8125C3 7.875 2.6875 7.9375 2.40625 7.9375C2.1875 7.9375 2 7.90625 1.78125 7.875C2.1875 9.1875 3.40625 10.125 4.84375 10.1562C3.71875 11.0312 2.3125 11.5625 0.78125 11.5625C0.5 11.5625 0.25 11.5312 0 11.5C1.4375 12.4376 3.15625 12.9688 5.03125 12.9688C11.0625 12.9688 14.3438 8 14.3438 3.65625C14.3438 3.5 14.3438 3.375 14.3438 3.21875Z"
+											fill="white"
+										/>
+									</svg>
+								</a>
+								<a href="#" class="footer__top-link" title="LinkedIn">
+									<svg
+										width="14"
+										height="14"
+										viewBox="0 0 14 14"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M3.125 13.9688V4.625H0.21875V13.9688H3.125ZM1.65625 3.375C2.59375 3.375 3.34375 2.59375 3.34375 1.65625C3.34375 0.75 2.59375 0 1.65625 0C0.75 0 0 0.75 0 1.65625C0 2.59375 0.75 3.375 1.65625 3.375ZM13.9688 13.9688H14V8.84375C14 6.34375 13.4375 4.40625 10.5 4.40625C9.09375 4.40625 8.15625 5.1875 7.75 5.90625H7.71875V4.625H4.9375V13.9688H7.84375V9.34375C7.84375 8.125 8.0625 6.96875 9.5625 6.96875C11.0625 6.96875 11.0938 8.34375 11.0938 9.4375V13.9688H13.9688Z"
+											fill="white"
+										/>
+									</svg>
+								</a>
+								<a href="#" class="footer__top-link" title="Instagram">
+									<svg
+										width="17"
+										height="17"
+										viewBox="0 0 17 17"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.33105 4.02637C5.95605 4.02637 4.06347 5.95606 4.06347 8.29395C4.06347 10.6689 5.95605 12.5615 8.33105 12.5615C10.669 12.5615 12.5987 10.6689 12.5987 8.29395C12.5987 5.95606 10.669 4.02637 8.33105 4.02637ZM8.33105 11.0771C6.80957 11.0771 5.54785 9.85254 5.54785 8.29395C5.54785 6.77247 6.77246 5.54786 8.33105 5.54786C9.85255 5.54786 11.0772 6.77247 11.0772 8.29395C11.0772 9.85254 9.85255 11.0771 8.33105 11.0771ZM13.7491 3.87793C13.7491 3.32129 13.3038 2.87598 12.7471 2.87598C12.1905 2.87598 11.7452 3.32129 11.7452 3.87793C11.7452 4.43457 12.1905 4.87989 12.7471 4.87989C13.3038 4.87989 13.7491 4.43457 13.7491 3.87793ZM16.5694 4.87989C16.4952 3.54395 16.1983 2.35645 15.2334 1.39161C14.2686 0.426755 13.0811 0.129883 11.7452 0.0556643C10.3721 -0.0185548 6.25293 -0.0185548 4.87988 0.0556643C3.54394 0.129883 2.39355 0.426755 1.3916 1.39161C0.426757 2.35645 0.129882 3.54395 0.0556635 4.87989C-0.0185545 6.25292 -0.0185545 10.372 0.0556635 11.7451C0.129882 13.081 0.426757 14.2314 1.3916 15.2334C2.39355 16.1982 3.54394 16.4951 4.87988 16.5693C6.25293 16.6435 10.3721 16.6435 11.7452 16.5693C13.0811 16.4951 14.2686 16.1982 15.2334 15.2334C16.1983 14.2314 16.4952 13.081 16.5694 11.7451C16.6436 10.372 16.6436 6.25292 16.5694 4.87989ZM14.7881 13.1923C14.5284 13.9345 13.9346 14.4912 13.2295 14.788C12.1163 15.2334 9.51855 15.122 8.33105 15.122C7.10644 15.122 4.50878 15.2334 3.43261 14.788C2.69043 14.4912 2.13378 13.9345 1.83691 13.1923C1.3916 12.1162 1.50293 9.51855 1.50293 8.29395C1.50293 7.10645 1.3916 4.50879 1.83691 3.39551C2.13378 2.69043 2.69043 2.13379 3.43261 1.83692C4.50878 1.39161 7.10644 1.50293 8.33105 1.50293C9.51855 1.50293 12.1163 1.39161 13.2295 1.83692C13.9346 2.09668 14.4913 2.69043 14.7881 3.39551C15.2334 4.50879 15.1221 7.10645 15.1221 8.29395C15.1221 9.51855 15.2334 12.1162 14.7881 13.1923Z"
+											fill="white"
+										/>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="footer__top-item">
+							<div class="footer__top-title">Explore</div>
+							<div class="footer__top-explorers">
+								<a href="#" class="footer__top-explorer">Home</a>
+								<a href="#" class="footer__top-explorer">About</a>
+								<a href="#" class="footer__top-explorer">Articles</a>
+								<a href="#" class="footer__top-explorer">Our Store</a>
+								<a href="#" class="footer__top-explorer">Contact Us</a>
+							</div>
+						</div>
+						<div class="footer__top-item">
+							<div class="footer__top-title">Utility Pages</div>
+							<div class="footer__top-utilitys">
+								<a href="#" class="footer__top-utility">Style Guide</a>
+								<a href="#" class="footer__top-utility">404 Not Found</a>
+								<a href="#" class="footer__top-utility">Password Protected</a>
+								<a href="#" class="footer__top-utility">Licenses</a>
+								<a href="#" class="footer__top-utility">Changelog</a>
+							</div>
+						</div>
+						<div class="footer__top-item">
+							<div class="footer__top-title">Keep in Touch</div>
+							<div class="footer__top-contacts">
+								<div class="footer__top-addres">
+									<div class="footer__top-address">Address :</div>
+									<a href="#" class="footer__top-address--link">
+										24A Kingston St, Los Vegas
+										<br />
+										NC 28202, USA.
+									</a>
+								</div>
+								<div class="footer__top-addres">
+									<div class="footer__top-address">Mail :</div>
+									<a href="mailto:support@pages.com" class="footer__top-address--link">
+										support@pages.com
+									</a>
+								</div>
+								<div class="footer__top-addres">
+									<div class="footer__top-address">Phone :</div>
+									<a href="tel:+221234567900" class="footer__top-address--link">
+										(+22) 123 - 4567 - 900
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copirait">
+						© Drafted by
+						<span>VictorFlow</span>
+						- Powered by
+						<span>Webflow</span>
+						.
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
